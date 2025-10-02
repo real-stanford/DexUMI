@@ -255,16 +255,14 @@ You can visualize the optimization results by running:
 python DexUMI/linkage_optimization/viz_full_fk.py
 ```
 ### BibTeX
-@misc{xu2025dexumiusinghumanhand,
-      title={DexUMI: Using Human Hand as the Universal Manipulation Interface for Dexterous Manipulation}, 
-      author={Mengda Xu and Han Zhang and Yifan Hou and Zhenjia Xu and Linxi Fan and Manuela Veloso and Shuran Song},
-      year={2025},
-      eprint={2505.21864},
-      archivePrefix={arXiv},
-      primaryClass={cs.RO},
-      url={https://arxiv.org/abs/2505.21864}, 
+```bash
+@article{xu2025dexumi,
+  title={DexUMI: Using Human Hand as the Universal Manipulation Interface for Dexterous Manipulation},
+  author={Xu, Mengda and Zhang, Han and Hou, Yifan and Xu, Zhenjia and Fan, Linxi and Veloso, Manuela and Song, Shuran},
+  journal={arXiv preprint arXiv:2505.21864},
+  year={2025}
 }
-
+```
 ### 🏷️ License
 This repository is released under the MIT license. 
 
