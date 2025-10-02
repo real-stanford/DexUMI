@@ -1,5 +1,7 @@
 <h1 align="center" style="font-size: 3em;">Universal Manipulation Interface for<br>Dexterous Manipulation</h1>
+
 <p align="center"><b style="color: red; font-size: 1.5em;">CoRL 2025 Best Paper Finalist</b></p>
+
 [[Project page]](https://dex-umi.github.io)
 [[Paper]](https://arxiv.org/pdf/2505.21864v2)
 [[Hardware Guide]](https://dex-umi.github.io/tutorial/hardware.html)
