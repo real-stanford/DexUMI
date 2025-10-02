@@ -1,5 +1,5 @@
 <h1 align="center" style="font-size: 3em;">Universal Manipulation Interface for<br>Dexterous Manipulation</h1>
-
+<p align="center"><b style="color: red; font-size: 1.5em;">CoRL 2025 Best Paper Finalist</b></p>
 [[Project page]](https://dex-umi.github.io)
 [[Paper]](https://arxiv.org/pdf/2505.21864v2)
 [[Hardware Guide]](https://dex-umi.github.io/tutorial/hardware.html)
@@ -174,6 +174,8 @@ The final dataset will be stored in `path/to/final_dataset`. Each episode struct
 └── proprioception
 ```
 
+All data collected by us can be found [here](https://umi-data.github.io/).
+
 ### 🚴‍♂️ Policy Training 
 
 Modify the following items in `config/diffusion_policy/train_diffusion_policy.yaml`:
@@ -250,7 +252,16 @@ You can visualize the optimization results by running:
 ```bash
 python DexUMI/linkage_optimization/viz_full_fk.py
 ```
-
+### BibTeX
+@misc{xu2025dexumiusinghumanhand,
+      title={DexUMI: Using Human Hand as the Universal Manipulation Interface for Dexterous Manipulation}, 
+      author={Mengda Xu and Han Zhang and Yifan Hou and Zhenjia Xu and Linxi Fan and Manuela Veloso and Shuran Song},
+      year={2025},
+      eprint={2505.21864},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO},
+      url={https://arxiv.org/abs/2505.21864}, 
+}
 
 ### 🏷️ License
 This repository is released under the MIT license. 
@@ -260,3 +271,5 @@ This repository is released under the MIT license.
 * Many useful utilies are adapted from [UMI](https://github.com/real-stanford/universal_manipulation_interface)
 * Many hardware designs are adapted from [DOGlove](https://do-glove.github.io/)
 * Thanks [Huy Ha](https://www.cs.columbia.edu/~huy/) for helping us to setup our [tutorial videos](https://www.youtube.com/playlist?list=PLAymUyzwr8XgxwJzWp1MHkBzKIRJLdRJg) on Youtube. 
+
+
