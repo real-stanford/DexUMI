@@ -256,11 +256,13 @@ python DexUMI/linkage_optimization/viz_full_fk.py
 ```
 ### BibTeX
 ```bibtex
-@article{xu2025dexumi,
-   title={DexUMI: Using Human Hand as the Universal Manipulation Interface for Dexterous Manipulation},
-   author={Xu, Mengda and Zhang, Han and Hou, Yifan and Xu, Zhenjia and Fan, Linxi and Veloso, Manuela and Song, Shuran},
-   journal={arXiv preprint arXiv:2505.21864},
-   year={2025}
+@inproceedings{xu2025dexumi,
+  title={DexUMI: Using Human Hand as the Universal Manipulation Interface for Dexterous Manipulation},
+  author={Xu, Mengda and Zhang, Han and Hou, Yifan and Xu, Zhenjia and Fan, Linxi and Veloso, Manuela and Song, Shuran},
+  booktitle={Conference on Robot Learning},
+  pages={437--459},
+  year={2025},
+  organization={PMLR}
 }
 ```
 ### 🏷️ License
@@ -271,5 +273,3 @@ This repository is released under the MIT license.
 * Many useful utilies are adapted from [UMI](https://github.com/real-stanford/universal_manipulation_interface)
 * Many hardware designs are adapted from [DOGlove](https://do-glove.github.io/)
 * Thanks [Huy Ha](https://www.cs.columbia.edu/~huy/) for helping us to setup our [tutorial videos](https://www.youtube.com/playlist?list=PLAymUyzwr8XgxwJzWp1MHkBzKIRJLdRJg) on Youtube. 
-
-
